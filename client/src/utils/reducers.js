@@ -18,6 +18,23 @@ const initialState = {
   categories: [],
   currentCategory: ''
 }
+
+// set the initial state of the reducer
+const reducer = (state = initialState, action) => {
+  switch (action.type) {
+    case UPDATE_PRODUCTS:
+      return {
+        ...state,
+        products: [...action.products],
+      };
+
+    case ADD_TO_CART:
+      return {
+        ...state,
+        cartOpen: true,
+        cart: [...state.cart, action.product],
+      };
+
 // The reducer is a function that accepts the current state and an action. It returns a new state based on that action.
 export const reducer = (state, action) => {
   switch (action.type) {
