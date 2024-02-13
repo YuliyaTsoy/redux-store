@@ -1,13 +1,13 @@
-## REDUX STORE
+# REDUX STORE
 
-# About
+## About
 An e-commerce platform using Redux for managing complex state in a large-scale React application.
 
-# Live Link:
+## Live Link:
 
 [Deployed-on-Render](https://redux-store-59a6.onrender.com)
 
-# ScreenShot
+## ScreenShot
 ![screen shot](image.png)
 
 ## User Story
